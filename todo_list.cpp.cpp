@@ -67,6 +67,8 @@ int main()
             case('c'):
 				viewTasks();
 				break;
+            case('d'):
+				exit(EXIT_SUCCESS);
 			default:
 				cout << "Invalid option!\n";
         }
